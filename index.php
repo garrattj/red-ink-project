@@ -1,10 +1,8 @@
 <?php
   include ("_includes/header.php")
 ?>
-<div id="bigwrapper" class="container no-padding-all">
-			<div class="ticker">
-				<span class="ticker-heading">Latest</span>
-			</div>
+
+			
 
 			<div class="container">
 				<div class="content">
@@ -22,13 +20,13 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="..." alt="...">
+      <img src="assets/images/slider-1.jpg" alt="picture">
       <div class="carousel-caption">
         Carbon 4 Teen
       </div>
     </div>
     <div class="item">
-      <img src="..." alt="Rocket To Mecca">
+      <img src="assets/images.slider-2" alt="Rocket To Mecca">
       <div class="carousel-caption">
         <p>Rocket To Mecca
       </div>
@@ -66,16 +64,16 @@
 								<p>Tak cuba tak tahu kan? Thanks, jumpa korang lagi beb!</p>
 								
 								<h5>Iman's League - Anugerah Band Terbaik !</h5>
-									
+																<ul class="pagination">
+  <li><a href="index.php">1</a></li>
+  <li><a href="index-2.php">2</a></li>
+ 
+</ul>			
 							</div> <!-- END main-content -->
 						</div> <!-- END col-md-8 -->
 			<?php include ("_includes/right-aside.php") ?>
 					</div>
-<ul class="pagination">
-  <li><a href="index.php">1</a></li>
-  <li><a href="index-2.php">2</a></li>
- 
-</ul>					<!-- END row -->
+					<!-- END row -->
 				</div> <!-- END content -->
 			</div>  <!-- END container -->
 		</div>
