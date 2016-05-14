@@ -1,41 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-		<title>REDINK ENTERTAINMENT</title>
-    <!-- Bootstrap -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-	</head>
-	<body>
-		<nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">REDINK ENTERTAINMENT</a>
-    </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="index.php">HOME<span class="sr-only">(current)</span></a></li>
-        <li><a href="bands.php">BANDS</a></li>
-        <li><a href="videos.php">VIDEOS</a></li>
-		<li><a href="events.php">EVENTS</a></li>
-		<li><a href="services.php">SERVICES</a></li>
-		<li><a href="#contact.php">CONTACT</a></li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
+<?php
+  include ("_includes/header.php")
+?>
 <div id="bigwrapper" class="container no-padding-all">
 			<div class="ticker">
 				<span class="ticker-heading">Latest</span>
@@ -46,7 +11,44 @@
 					<div class="row">
 						<div class="col-md-8">
 							<div class= "main-content">
+							<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="..." alt="...">
+      <div class="carousel-caption">
+        Carbon 4 Teen
+      </div>
+    </div>
+    <div class="item">
+      <img src="..." alt="Rocket To Mecca">
+      <div class="carousel-caption">
+        <p>Rocket To Mecca
+      </div>
+    </div>
+    ...
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+								<div id ="header">
 								<h2>LATEST NEWS</h2>
+								</div>
 								<h5>WE WANT YOUR BAND. JOIN US NOW!</h5>
 								<p> 31/01/2016 </p>
 								<p>Siapa masih ingat pada tahun 2007 – 2009 dulu?</p>
@@ -62,12 +64,18 @@
 								<p>Jadi, mana korang yang ada band, boleh lah kembali aktif sebab kitaorang tengah cari band untuk pelbagai show dalam masa terdekat ini.</p>
 								<p>Serius, nak lebih mudah korang boleh register band korang kat link bawah ini —-> http://goo.gl/forms/H3Xjjrw6f9</p>
 								<p>Tak cuba tak tahu kan? Thanks, jumpa korang lagi beb!</p>
-								<p></p>
-						
+								
+								<h5>Iman's League - Anugerah Band Terbaik !</h5>
+									
 							</div> <!-- END main-content -->
 						</div> <!-- END col-md-8 -->
-		<?php include ("_includes/right-aside.php") ?>
-					</div> <!-- END row -->
+			<?php include ("_includes/right-aside.php") ?>
+					</div>
+<ul class="pagination">
+  <li><a href="index.php">1</a></li>
+  <li><a href="index-2.php">2</a></li>
+ 
+</ul>					<!-- END row -->
 				</div> <!-- END content -->
 			</div>  <!-- END container -->
 		</div>

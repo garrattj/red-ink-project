@@ -1,7 +1,7 @@
 <div class="col-md-4 max-margin-top">
 	<div class="panel panel-default">
 		<div id="panelhead">
-			<div class="panel-heading">PAST&UPCOMINGEVENTS</div>
+			<div class="panel-heading"> PAST&UPCOMINGEVENTS </div>
 		</div>
 		<div class="panel-body">
 			<p>6th February 2015 (Friday) <br> New Found Glory live in Kuala Lumpur! <br> Bentley Music Auditorium</p>
@@ -11,6 +11,31 @@
 			<p>26th January 2013 (Saturday) <br> Comeback Kid : Live in Kuala Lumpur <br> OVO Live Bistro, Damansara Selangor</p>
 		</div>
 		<div class="panel-footer">VIEW ALL EVENTS</div>
+	</div>
+	<div class="panel panel-default">
+		<div id="panelhead">
+			<div class="panel-heading"> FEATURED VIDEOS </div>
+		</div>
+		<div class="panel-body">
+			<iframe width="100%" height="100%"
+				
+			</iframe>
+			
+		</div>
+		<div class="panel-footer">VIEW ALL VIDEOS</div>
+	</div>
+	<div class="panel panel-default">
+		<div id="panelhead">
+			<div class="panel-heading"> FEATURED BANDS </div>
+		</div>
+		<div class="panel-body">
+			<p>6th February 2015 (Friday) <br> New Found Glory live in Kuala Lumpur! <br> Bentley Music Auditorium</p>
+			<p>5th February 2015 (Thursday)<br> Hang out with New Found Glory!<br> Alt HQ, Bukit Bintang, Kuala Lumpur.</p>
+			<p>17th August 2014 (Sunday) <br> Majlis Jamuan Hari Raya 2014 <br> Putra Walk, Equine Seri Kembangan</p>
+			<p>2nd May 2014 (Friday) <br> Is This Ska? Kuala Lumpur 2014 <br> Insider Space, Kuala Lumpur </p>
+			<p>26th January 2013 (Saturday) <br> Comeback Kid : Live in Kuala Lumpur <br> OVO Live Bistro, Damansara Selangor</p>
+		</div>
+		<div class="panel-footer">VIEW ALL BANDS</div>
 	</div>
 </div>
 
