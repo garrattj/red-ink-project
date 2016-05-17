@@ -1,5 +1,5 @@
-
-  "name": "redink-entertainment",
+{ 
+ "name": "redink-entertainment",
   "version": "1.0.0",
   "description": "NPM list of packages to use with grunt",
   "author": "Jonathan Garratt",

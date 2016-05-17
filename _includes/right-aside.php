@@ -1,4 +1,15 @@
 <div class="col-md-4 max-margin-top">
+<div class="panel panel-default">
+  <div class="panel-body">
+    <div id="search">
+		<form action="action_page.php">
+  
+  <input type="search" name="googlesearch">
+  <input type="submit">
+</form>
+	</div>
+  </div>
+</div>
 	<div class="panel panel-default">
 		<div id="panelhead">
 			<div class="panel-heading"> PAST&UPCOMINGEVENTS </div>
@@ -17,12 +28,12 @@
 			<div class="panel-heading"> FEATURED VIDEOS </div>
 		</div>
 		<div class="panel-body">
-			<iframe width="100%" height="100%"
-				
-			</iframe>
 			
+				<iframe width="310" height="207" src="https://www.youtube.com/embed/jgUn_xXRtF0" frameborder="0" allowfullscreen></iframe>
+				<iframe width="310" height="207" src="https://www.youtube.com/embed/Qu1Hw8WJeHo" frameborder="0" allowfullscreen></iframe>		
 		</div>
-		<div class="panel-footer">VIEW ALL VIDEOS</div>
+		<div class="panel-footer">
+		<a href="videos.php"> VIEW ALL VIDEOS</a></div>
 	</div>
 	<div class="panel panel-default">
 		<div id="panelhead">
@@ -35,7 +46,8 @@
 			<p>2nd May 2014 (Friday) <br> Is This Ska? Kuala Lumpur 2014 <br> Insider Space, Kuala Lumpur </p>
 			<p>26th January 2013 (Saturday) <br> Comeback Kid : Live in Kuala Lumpur <br> OVO Live Bistro, Damansara Selangor</p>
 		</div>
-		<div class="panel-footer">VIEW ALL BANDS</div>
+		<div class="panel-footer">
+		<a href="bands.php">VIEW ALL BANDS</a></div>
 	</div>
 </div>
 
