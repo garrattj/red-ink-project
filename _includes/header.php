@@ -28,6 +28,7 @@
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav">
 						<li class="active"><a href="index.php">HOME<span class="sr-only">(current)</span></a></li>
+						<li><a href="about.php">ABOUT</a></li>
 						<li><a href="bands.php">BANDS</a></li>
 						<li><a href="videos.php">VIDEOS</a></li>
 						<li><a href="events.php">EVENTS</a></li>
