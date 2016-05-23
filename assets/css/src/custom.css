@@ -1,0 +1,10 @@
+body{
+	background-color:white;
+	opacity:0.5;
+	background-image:url (".././assets/images/body-background.jpg");
+	
+}
+#cusnav{
+		border-top:red;
+		color: red;
+}

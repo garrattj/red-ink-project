@@ -50,4 +50,7 @@
 		<p>Asian Rock Day (2008)</p>
 
 	</div>
+	<?php
+  include ("_includes/footer.php")
+?>
 </div>

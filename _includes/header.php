@@ -8,13 +8,15 @@
 		<title>REDINK ENTERTAINMENT</title>
     <!-- Bootstrap -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-		<link rel="stylesheet" href="assets/css/dest/custom.min.css">
+		<link href='https://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="assets/css/src/custom.css">
 	</head>
 	<body>
 		<nav class="navbar navbar-default">
 			<div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
 				<div class="navbar-header">
+					<div class="cusnav">
 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
 						<span class="sr-only">Toggle navigation</span>
 						<span class="icon-bar"></span>
@@ -36,5 +38,6 @@
 						<li><a href="contact.php">CONTACT</a></li>
 					</ul>
 				</div><!-- /.navbar-collapse -->
+				</div>
 			</div><!-- /.container-fluid -->
 		</nav>
