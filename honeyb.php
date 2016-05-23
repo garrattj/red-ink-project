@@ -5,7 +5,7 @@
 	<div class="content">
 		<div class="row">
 			<div class="col-md-6">
-				<p>PSYCHOBILLY / GRUNGE / SHOWTUNES / ROCK / ALTERNATIVE / NOISE / AMBIENT</p>
+				<h4>PSYCHOBILLY / GRUNGE / SHOWTUNES / ROCK / ALTERNATIVE / NOISE / AMBIENT</h4>
 					<img src='assets/images/slider-1.jpg' alt='missing' height="320" width="481" />
 					<h4>BAND MEMBERS</h4>
 					<p>As@Hasree:Guitar+Vocal+synth</p>
