@@ -1,0 +1,14 @@
+$primary-red: #ff0000;
+
+
+body{
+	background-color:white;
+	opacity:0.5;
+	background-image:url ("./../../assets/images/body-background.jpg");
+	font-family:inherit;
+	color: $primary-red;
+	
+}
+.header{
+	font-family:Anton;
+}
