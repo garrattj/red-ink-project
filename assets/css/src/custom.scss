@@ -1,18 +1,29 @@
 $primary-red: #ff0000;
-
+@font-face{
+	font-family: 'antonio-regular';
+	src: url('assets/fonts/Antonio-regular.ttf');
+	font-weight: 400;
+}
 
 body{
-	background-color:white;
-	
-	background-image:url ("./../../assets/images/body-background.jpg");
-	font-family:inherit;
+	background-image: url(http://redinkent.com/wp-content/themes/redink/images/bg_crowd.jpg);
+	background-repeat: no-repeat;
+	color: white;
+	background-size: cover;
 }
-.header{
-	font-family:anton;
+header{
+	text-shadow: 1px,1px,1px #000;
+	color:$primary-red;
 	
 }
 h2 span{
 	color:$primary-red;
+	text-shadow: 2px 2px #000;
+}
+
+h5index{
+	color:$primary-red;
+	text-shadow: 2px 2px #000;
 }
 
 .caption{
@@ -22,9 +33,7 @@ h2 span{
 	border:0px;
 	background-color:black;
 }
-h5-index{
-	color:$primary-red;
-}
+
 search{
 	background-color:$primary-red;
 }

@@ -88,10 +88,10 @@
 
 
 
-					<div id ="header">
+					<div class ="header">
 						<h2>LATEST<span> NEWS</span></h2>
 					</div>
-					<div class ="h5-index">
+					<div class ="h5index">
 						<h5>WE WANT YOUR BAND. JOIN US NOW!</h5>
 					</div>
 							<p> 31/01/2016 </p>
