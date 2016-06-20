@@ -7,18 +7,31 @@ $primary-red: #ff0000;
 
 body{
 	background-image: url(http://redinkent.com/wp-content/themes/redink/images/bg_crowd.jpg);
+	height: auto;
 	background-repeat: no-repeat;
 	color: white;
 	background-size: cover;
 }
+
+.background{
+	background-color:black;
+	opacity:.5;
+}
+
 header{
 	text-shadow: 1px,1px,1px #000;
 	color:$primary-red;
 	
 }
+a span {
+	color:$primary-red;
+}
 h2 span{
 	color:$primary-red;
 	text-shadow: 2px 2px #000;
+}
+h3 span {
+color:$primary-red;
 }
 
 h5index{
@@ -34,6 +47,19 @@ h5index{
 	background-color:black;
 }
 
-search{
+.search{
 	background-color:$primary-red;
+	width:100%;
 }
+p span{
+	color:$primary-red;
+}
+.yellow{
+	color:$primary-red;
+	background-color:black;
+}
+.panel-redink{
+	background-color:black;
+	border: black;
+}
+
