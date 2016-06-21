@@ -12,7 +12,6 @@
 		<link rel="stylesheet" href="assets/css/dest/custom.min.css">
 	</head>
 <body>
-	<div class="background">
 		<nav class="navbar navbar-default">
 
 
@@ -41,8 +40,7 @@
 			</div>
 			
 		</nav>
-		<div class="container">
-			<div class="content">
+		<div class="container content-area-background">
 				<div class="row">
 					<div class="col-md-8">
 						<div id="carousel-example-generic" class="carousel slide" data-interval="false">
@@ -119,10 +117,9 @@
 							include ("_includes/right-aside.php")
 						?>
 					</div>
-				</div>
-			</div>	
+				</div>	
 		</div>
-	</div>
+	
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
