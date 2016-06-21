@@ -50,16 +50,16 @@
 							<!-- Wrapper for slides -->
 							<div class="carousel-inner" role="listbox">
 								<div class="item active">
-									<img src="assets/images/slider-1.jpg" height="308" width="638" alt="...">
-									<div class="carousel-caption">
+									<img src="assets/images/slider-1.jpg" class="img img-responsive" alt="...">
+									<div class="carousel-caption carousel-redink-caption">
 										<div class ="caption">
 											Iman's League
 										</div>
 									</div>
 								</div>
 								<div class="item">
-									<img src="assets/images/slider-2.jpg" height="308" width="638" alt="...">
-									<div class="carousel-caption">
+									<img src="assets/images/slider-2.jpg" class="img img-responsive" alt="...">
+									<div class="carousel-caption carousel-redink-caption">
 										<div class ="caption">
 											Carbon 4 Teen
 										</div>
@@ -67,16 +67,16 @@
 								</div>
 							
 								<div class="item">
-									<img src="assets/images/slider-3.jpg" height="308" width="638" alt="...">
-									<div class="carousel-caption">
+									<img src="assets/images/slider-3.jpg" class="img img-responsive" alt="...">
+									<div class="carousel-caption carousel-redink-caption">
 										<div class ="caption">
 											Honey B
 										</div>
 									</div>
 								</div>
 								<div class="item">
-									<img src="assets/images/slider-4.jpg" height="308" width="638"alt="...">
-									<div class="carousel-caption">
+									<img src="assets/images/slider-4.jpg" class="img img-responsive" alt="...">
+									<div class="carousel-caption carousel-redink-caption">
 										<div class ="caption">
 											Rocket To Mecca
 										</div>	

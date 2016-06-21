@@ -1,65 +1,83 @@
-$primary-red: #ff0000;
-@font-face{
+$primary-red: #FF0000;
+@font-face {
 	font-family: 'antonio-regular';
 	src: url('assets/fonts/Antonio-regular.ttf');
 	font-weight: 400;
 }
 
-body{
+body {
 	background-image: url(http://redinkent.com/wp-content/themes/redink/images/bg_crowd.jpg);
 	height: auto;
 	background-repeat: no-repeat;
-	color: white;
+	color: #FFF;
 	background-size: cover;
 }
 
-.background{
-	background-color:black;
-	opacity:.5;
-}
-
-header{
+header {
 	text-shadow: 1px,1px,1px #000;
-	color:$primary-red;
+	color: $primary-red;
 	
 }
+
 a span {
-	color:$primary-red;
+	color: $primary-red;
 }
-h2 span{
-	color:$primary-red;
+
+h2 span {
+	color: $primary-red;
 	text-shadow: 2px 2px #000;
 }
+
 h3 span {
-color:$primary-red;
+	color: $primary-red;
 }
 
-h5index{
-	color:$primary-red;
+.h5index {
+	color: $primary-red;
 	text-shadow: 2px 2px #000;
 }
 
-.caption{
-	text-align:left;
-	margin:0px;
-	padding:0px;
-	border:0px;
-	background-color:black;
+.caption {
+	text-align: left;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	background-color: #000;
 }
 
-.search{
-	background-color:$primary-red;
-	width:100%;
+.search {
+	background-color: $primary-red;
+	width: 100%;
 }
-p span{
-	color:$primary-red;
+
+p span {
+	color: $primary-red;
 }
-.yellow{
-	color:$primary-red;
-	background-color:black;
+
+.yellow {
+	color: $primary-red;
+	background-color: #000;
 }
-.panel-redink{
-	background-color:black;
-	border: black;
+
+// redink panel styles
+.panel-redink {
+	background-color: #000; 
+	border: #000;
+	
+	.panel-heading {
+		color: #333;
+		background-color: #000;
+		border-color: #ddd;	
+	}
+	
+	.panel-body {
+		border: solid 1px red;
+	}
+}
+
+.carousel-redink-caption {
+	bottom: 0px;
+	left: 0%;
+	padding-bottom: 10px;
 }
 
