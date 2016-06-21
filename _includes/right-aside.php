@@ -1,21 +1,14 @@
 
-<div class="panel panel-default">
+<div class="panel panel-default hidden-xs hidden-sm">
 	<div class="search">
-		<div class="panel-body">
-			
+		<div class="panel-body">			
 			<form action="action_page.php">
-				<input type="search" name="googlesearch">
-					
+				<input type="search" name="googlesearch">					
 			</form>
 		</div>
 	</div>
 </div>
 	
-	
-	
-
-  
-  
 <div class="panel panel-default panel-redink">
 	<div class="panel-heading">
 		<h3 class="panel-title"><h3>PAST&UPCOMING <span>EVENTS</span> </h3></h3>
