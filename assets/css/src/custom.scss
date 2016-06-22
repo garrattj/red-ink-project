@@ -27,10 +27,16 @@ span.text-red {
 // Redink navbar styles
 .navbar-style {
 	background-color: rgba(0, 0, 0, 0.7);
+	color: $white;
+	margin-top: 10px;
 }
 
 .active-open {
 	background-color: $primary-red;
+	text: $white;
+}
+
+.links{
 	color: $white;
 }
 

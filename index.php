@@ -26,7 +26,7 @@
 					<a class="navbar-brand" href="index.php"><span class="text-red">REDINK</span> ENTERTAINMENT</a>
 			<!-- Collect the nav links, forms, and other content for toggling -->
 						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-							<ul class="nav navbar-nav">
+							<ul class="nav navbar-nav links">
 								<li class="active-open"><a href="index.php">HOME<span class="sr-only">(current)</span></a></li>
 								<li><a href="about.php">ABOUT</a></li>
 								<li><a href="bands.php">BANDS</a></li>
