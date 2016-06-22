@@ -1,5 +1,5 @@
 $primary-red: #FF0000;
-$white: #FFFFFF;
+$white: #FFF;
 // Typography
 @font-face {
 	font-family: 'antonio-regular';
@@ -31,9 +31,13 @@ span.text-red {
 	margin-top: 10px;
 }
 
+.navbar-style a{
+	color: white;
+}
+
 .active-open {
 	background-color: $primary-red;
-	text: $white;
+	color: $white;
 }
 
 .links{
