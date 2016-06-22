@@ -1,5 +1,5 @@
 $primary-red: #FF0000;
-
+$white: #FFFFFF;
 // Typography
 @font-face {
 	font-family: 'antonio-regular';
@@ -22,6 +22,16 @@ span.text-red {
 
 .redink-heading-text-shadow {	
 	text-shadow: 2px 2px #000;
+}
+
+// Redink navbar styles
+.navbar-style {
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+.active-open {
+	background-color: $primary-red;
+	color: $white;
 }
 
 // Redink panel styles

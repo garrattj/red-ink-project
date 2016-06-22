@@ -5,7 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-		<title>Red In Entertainment</title>
+		<title>Red Ink Entertainment</title>
 <!-- Bootstrap -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 		<link href='https://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
@@ -13,32 +13,32 @@
 	</head>
 <body>
 		<nav class="navbar navbar-default">
-
+			<div class="container">
 
 		<!-- Brand and toggle get grouped for better mobile display -->
-			<div class="navbar-header">
-
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="#"><span>REDINK</span> ENTERTAINMENT</a>
-		<!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-					<ul class="nav navbar-nav">
-						<li class="active"><a href="index.php">HOME<span class="sr-only">(current)</span></a></li>
-						<li><a href="about.php">ABOUT</a></li>
-						<li><a href="bands.php">BANDS</a></li>
-						<li><a href="videos.php">VIDEOS</a></li>
-						<li><a href="events.php">EVENTS</a></li>
-						<li><a href="services.php">SERVICES</a></li>
-						<li><a href="contact.php">CONTACT</a></li>
-					</ul>
-				</div><!-- /.navbar-collapse -->
+				<div class="navbar-header><button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<div class="navbar-style">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="index.php"><span class="text-red">REDINK</span> ENTERTAINMENT</a>
+			<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav">
+								<li class="active-open"><a href="index.php">HOME<span class="sr-only">(current)</span></a></li>
+								<li><a href="about.php">ABOUT</a></li>
+								<li><a href="bands.php">BANDS</a></li>
+								<li><a href="videos.php">VIDEOS</a></li>
+								<li><a href="events.php">EVENTS</a></li>
+								<li><a href="services.php">SERVICES</a></li>
+								<li><a href="contact.php">CONTACT</a></li>
+							</ul>
+						</div><!-- /.navbar-collapse -->
+					</div>
+				</div>
 			</div>
-			
 		</nav>
 		<div class="container content-area-background">
 				<div class="row">
