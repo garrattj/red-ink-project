@@ -25,23 +25,25 @@ span.text-red {
 }
 
 // Redink navbar styles
-.navbar-style {
-	background-color: rgba(0, 0, 0, 0.7);
-	color: $white;
-	margin-top: 10px;
-}
+#navbar-redink {
 
-.navbar-style a{
-	color: white;
-}
-
-.active-open {
-	background-color: $primary-red;
-	color: $white;
-}
-
-.links{
-	color: $white;
+	.navbar-default{	
+		background-color: transparant;
+		border-color: none;
+	
+		.navbar-nav>.active-open>a {		
+			color: $white;
+		}
+		
+		.active-open {
+			background-color: $primary-red;
+		}
+		
+		.links {
+			color: $white;
+		}	
+	}
+	
 }
 
 // Redink panel styles
@@ -82,12 +84,42 @@ span.text-red {
 
 // Footer Styles
 .footer {
-	text-align:center;
+	text-align: center;
+	
 		
-		a.text-red{
+	a.text-red {
 		color: $primary-red;
 	}
 	
+	.style-social {
+		margin-bottom: 25px;
+	}
+	
+	.footnote {
+		margin-bottom: 25px;
+	}
+	
+}
+
+.fa-youtube-color {
+	color: #D11A0E;
+}
+
+.fa-soundcloud-color {
+	color: #E18700;
+}
+
+.fa-facebook-color {
+	color: #136CAB;
+}
+
+.fa-gmail-color {
+	color: #E71607;
+}
+
+.navbar-default {
+    background-color: transparant!important;
+    border-color: none!important;
 }
 
 

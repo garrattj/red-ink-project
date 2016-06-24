@@ -7,40 +7,38 @@
 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 		<title>Red Ink Entertainment</title>
 <!-- Bootstrap -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 		<link href='https://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
 		<script src="https://use.fontawesome.com/df7e2c07e1.js"></script>
 		<link rel="stylesheet" href="assets/css/dest/custom.min.css">
 	</head>
 <body>
-		<nav class="navbar navbar-default">
-			<div class="container">
-
+	<nav id="navbar-redink" class="navbar navbar-default">
+	  <div class="container-fluid">
 		<!-- Brand and toggle get grouped for better mobile display -->
-				<div class="navbar-header><button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-					<div class="navbar-style">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand" href="index.php"><span class="text-red">REDINK</span> ENTERTAINMENT</a>
-			<!-- Collect the nav links, forms, and other content for toggling -->
-						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-							<ul class="nav navbar-nav links">
-								<li class="active-open"><a href="index.php">HOME<span class="sr-only">(current)</span></a></li>
-								<li><a href="about.php">ABOUT</a></li>
-								<li><a href="bands.php">BANDS</a></li>
-								<li><a href="videos.php">VIDEOS</a></li>
-								<li><a href="events.php">EVENTS</a></li>
-								<li><a href="services.php">SERVICES</a></li>
-								<li><a href="contact.php">CONTACT</a></li>
-							</ul>
-						</div><!-- /.navbar-collapse -->
-					</div>
-				</div>
-			</div>
-		</nav>
+		<div class="navbar-header">
+		  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		  </button>
+		  <a class="navbar-brand" href="#"><span class="main-title">Redink </span>Entertainment</a>
+		</div>
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		  <ul class="nav navbar-nav">
+			<li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Bands</a></li>
+			<li><a href="#">Videos</a></li>
+			<li><a href="#">Events</a></li>
+			<li><a href="#">Services</a></li>
+			<li><a href="#">Contact</a></li>
+		  </ul>
+		</div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
 		<div class="container content-area-background">
 				<div class="row">
 					<div class="col-md-8">
@@ -119,11 +117,30 @@
 						?>
 					</div>
 						<div class="footer">
-								<i class="fa fa-youtube-square fa-3x" aria-hidden="true"></i>
-								<i class="fa fa-soundcloud fa-3x" aria-hidden="true"></i>
-								<i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i>
-								<i class="fa fa-envelope fa-3x" aria-hidden="true"></i><br>
-						<i class="fa fa-copyright" aria-hidden="true"></i> copyright 2016 <a class="text-red" href="index.php">Red Ink Entertainment.</a> All Rights Reserved.
+							<div class="row style-social">
+								<span class="fa-stack fa-2x">
+								  <i class="fa fa-circle fa-stack-2x fa-youtube-color"></i>
+								  <i class="fa fa-youtube fa-stack-1x fa-inverse "></i>
+								</span>
+
+								<span class="fa-stack fa-2x">
+								  <i class="fa fa-circle fa-stack-2x fa-soundcloud-color"></i>
+								  <i class="fa fa-soundcloud fa-stack-1x fa-inverse "></i>
+								</span>
+
+								<span class="fa-stack fa-2x">
+								  <i class="fa fa-circle fa-stack-2x fa-facebook-color"></i>
+								  <i class="fa fa-facebook fa-stack-1x fa-inverse "></i>
+								</span>
+
+								<span class="fa-stack fa-2x">
+								  <i class="fa fa-circle fa-stack-2x fa-gmail-color"></i>
+								  <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+								</span>
+							</div>
+							<div class="row footnote">	
+								<i class="fa fa-copyright" aria-hidden="true"></i> copyright 2016 <a class="text-red" href="index.php">Red Ink Entertainment.</a> All Rights Reserved.
+							</div>
 						</div>
 				</div>
 			</div>
@@ -131,8 +148,5 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-<footer>
-
-</footer>
 </body>
 </html>
