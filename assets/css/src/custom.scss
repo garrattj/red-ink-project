@@ -13,6 +13,7 @@ body {
 	background-repeat: no-repeat;
 	color: #FFF;
 	background-size: cover;
+	border-top: 8px solid $primary-red;
 }
 
 // Custom text styles
@@ -20,49 +21,64 @@ span.text-red {
 	color: $primary-red;
 }
 
-.redink-heading-text-shadow {	
+.redink-heading-text-shadow {
 	text-shadow: 2px 2px #000;
 }
 
 // Redink navbar styles
-#navbar-redink {
+#redink-navbar {
 
-	.navbar-default{	
-		background-color: transparant;
-		border-color: none;
-	
-		.navbar-nav>.active-open>a {		
+	.navbar-default {
+		background-color: #000;
+		border-color: #000;
+		border: none;
+
+		.navbar-brand {
+			font-family: 'Anton', sans-serif;
+			text-shadow: 1px 1px 1px #000;
+			text-transform: uppercase;
 			color: $white;
+			font-size: 33.7px;
+
+			.main-title {
+				color: $primary-red;
+			}
 		}
-		
-		.active-open {
+
+		.navbar-nav>li>a {
+			color: $primary-red;
+			padding: 1.96em .9em .5em;
+			font-size: 1.3em;
+		}
+
+		.active>a{
 			background-color: $primary-red;
+			// color: #FFF;
 		}
-		
-		.links {
-			color: $white;
-		}	
-	}
-	
-}
+
+	} // navbar-default end
+
+} // redink-navbar end
+
+
 
 // Redink panel styles
 .panel-redink {
-	background-color: #000; 
+	background-color: #000;
 	border: #000;
-	
+
 	.panel-heading {
 		color: #333;
 		background-color: #000;
-		border-color: #ddd;	
+		border-color: #ddd;
 	}
-	
+
 	.panel-body {
-		border: solid 1px red;
+		border: none;
 	}
 }
 
-// Redink carousel styles 
+// Redink carousel styles
 .carousel-redink-caption {
 	bottom: 0px;
 	left: 0%;
@@ -85,20 +101,20 @@ span.text-red {
 // Footer Styles
 .footer {
 	text-align: center;
-	
-		
+
+
 	a.text-red {
 		color: $primary-red;
 	}
-	
+
 	.style-social {
 		margin-bottom: 25px;
 	}
-	
+
 	.footnote {
 		margin-bottom: 25px;
 	}
-	
+
 }
 
 .fa-youtube-color {
@@ -116,14 +132,3 @@ span.text-red {
 .fa-gmail-color {
 	color: #E71607;
 }
-
-.navbar-default {
-    background-color: transparant!important;
-    border-color: none!important;
-}
-
-
-
-
-
-
