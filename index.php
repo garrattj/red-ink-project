@@ -9,6 +9,7 @@
 <!-- Bootstrap -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 		<link href='https://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
+		<script src="https://use.fontawesome.com/df7e2c07e1.js"></script>
 		<link rel="stylesheet" href="assets/css/dest/custom.min.css">
 	</head>
 <body>
@@ -117,12 +118,21 @@
 							include ("_includes/right-aside.php")
 						?>
 					</div>
-				</div>	
-		</div>
-	
+						<div class="footer">
+								<i class="fa fa-youtube-square fa-3x" aria-hidden="true"></i>
+								<i class="fa fa-soundcloud fa-3x" aria-hidden="true"></i>
+								<i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i>
+								<i class="fa fa-envelope fa-3x" aria-hidden="true"></i><br>
+						<i class="fa fa-copyright" aria-hidden="true"></i> copyright 2016 <a class="text-red" href="index.php">Red Ink Entertainment.</a> All Rights Reserved.
+						</div>
+				</div>
+			</div>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<footer>
+
+</footer>
 </body>
 </html>
