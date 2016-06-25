@@ -33,7 +33,7 @@ span.text-red {
 		border-color: #000;
 		border: none;
 		font-family: 'Anton', sans-serif;
-		
+
 
 		.navbar-brand {
 			font-family: 'Anton', sans-serif;
@@ -52,7 +52,7 @@ span.text-red {
 			padding: 1.96em .9em .5em;
 			font-size: 1.3em;
 		}
-		
+
 		.navbar-nav>li>a:hover {
 			background-color: #000000;
 			color: $white;
@@ -84,7 +84,7 @@ span.text-red {
 	.panel-body {
 		border: none;
 	}
-	
+
 	.panel-footer {
 		background-color: $primary-red;
 		text-align: right;
@@ -92,7 +92,7 @@ span.text-red {
 		padding:5px;
 		font-family: 'Anton', sans-serif;
 	}
-	
+
 	.panel-footer>a {
 		color: $white;
 	}
@@ -151,4 +151,31 @@ span.text-red {
 
 .fa-gmail-color {
 	color: #E71607;
+}
+
+// Playing around with media queries
+
+body {
+	border: solid 3px pink;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	body{
+		border: solid 1px red;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	body{
+		border: solid 1px blue;
+	}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	body{
+		border: solid 5px green;
+	}
 }
