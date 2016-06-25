@@ -68,13 +68,18 @@ span.text-red {
 	border: #000;
 
 	.panel-heading {
-		color: #333;
+		color: $white;
 		background-color: #000;
 		border-color: #ddd;
 	}
 
 	.panel-body {
 		border: none;
+	}
+	
+	.panel-footer {
+		background-color: $primary-red;
+		text-align:right;
 	}
 }
 
