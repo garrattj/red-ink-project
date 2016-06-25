@@ -34,7 +34,7 @@
 			  <ul class="nav navbar-nav">
 					<li class="active"><a href="/" style="color: #FFF;">Home <span class="sr-only">(current)</span></a></li>
 					<li><a href="#">About</a></li>
-					<li><a href="#">Bands</a></li>
+					<li><a href="bands.php">Bands</a></li>
 					<li><a href="#">Videos</a></li>
 					<li><a href="#">Events</a></li>
 					<li><a href="#">Services</a></li>

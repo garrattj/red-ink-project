@@ -29,9 +29,11 @@ span.text-red {
 #redink-navbar {
 
 	.navbar-default {
-		background-color: #000;
+		background-color: transparent;
 		border-color: #000;
 		border: none;
+		font-family: 'Anton', sans-serif;
+		
 
 		.navbar-brand {
 			font-family: 'Anton', sans-serif;
@@ -50,6 +52,11 @@ span.text-red {
 			padding: 1.96em .9em .5em;
 			font-size: 1.3em;
 		}
+		
+		.navbar-nav>li>a:hover {
+			background-color: #000000;
+			color: $white;
+		}
 
 		.active>a{
 			background-color: $primary-red;
@@ -65,12 +72,13 @@ span.text-red {
 // Redink panel styles
 .panel-redink {
 	background-color: #000;
-	border: #000;
+	border: none;
 
 	.panel-heading {
 		color: $white;
 		background-color: #000;
-		border-color: #ddd;
+		border: none;
+		font-family: 'Anton', sans-serif;
 	}
 
 	.panel-body {
@@ -79,7 +87,14 @@ span.text-red {
 	
 	.panel-footer {
 		background-color: $primary-red;
-		text-align:right;
+		text-align: right;
+		border: none;
+		padding:5px;
+		font-family: 'Anton', sans-serif;
+	}
+	
+	.panel-footer>a {
+		color: $white;
 	}
 }
 
@@ -93,7 +108,7 @@ span.text-red {
 }
 
 // Redink search styles
-.search {
+.search-redink {
 	background-color: $primary-red;
 	width: 100%;
 }
