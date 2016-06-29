@@ -34,7 +34,6 @@
 			  <ul class="nav navbar-nav">
 					<li class="active"><a href="/" style="color: #FFF;">Home <span class="sr-only">(current)</span></a></li>
 					<li><a href="#">About</a></li>
-					<li><a href="bands.php">Bands</a></li>
 					<li><a href="#">Videos</a></li>
 					<li><a href="#">Events</a></li>
 					<li><a href="#">Services</a></li>
@@ -108,10 +107,6 @@
 							<p>Serius, nak lebih mudah korang boleh register band korang kat link bawah ini —-> http://goo.gl/forms/H3Xjjrw6f9</p>
 							<p>Tak cuba tak tahu kan? Thanks, jumpa korang lagi beb!</p>
 							<h5>Iman's League - Anugerah Band Terbaik !</h5>
-							<ul class="pagination">
-								<li><a href="index.php">1</a></li>
-								<li><a href="index-2.php">2</a></li>
-							</ul>
 						</div>
 
 
