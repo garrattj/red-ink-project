@@ -71,4 +71,4 @@ module.exports = function(grunt) {
   
   // Register GRUNT tasks below so that they work.
   // Register default task(s).
-  grunt.registerTask('default', ['uglify','sass','imagemin','watch']);};
+  grunt.registerTask('default', ['newer:uglify','newer:sass','imagemin','watch']);};

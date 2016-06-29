@@ -1,0 +1,56 @@
+/*!
+ * Bootstrap v3.3.6 (http://getbootstrap.com)
+ * Copyright 2011-2015 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+// Core variables and mixins
+@import "/assets/css/src/_bootstrap/variables";
+@import "/assets/css/src/_bootstrap/mixins";
+
+// Reset and dependencies
+@import "/assets/css/src/_bootstrap/normalize";
+@import "/assets/css/src/_bootstrap/print";
+@import "/assets/css/src/_bootstrap/glyphicons";
+
+// Core CSS
+@import "/assets/css/src/_bootstrap/scaffolding";
+@import "/assets/css/src/_bootstrap/type";
+@import "/assets/css/src/_bootstrap/code";
+@import "/assets/css/src/_bootstrap/grid";
+@import "/assets/css/src/_bootstrap/tables";
+@import "/assets/css/src/_bootstrap/forms";
+@import "/assets/css/src/_bootstrap/buttons";
+
+// Components
+@import "/assets/css/src/_bootstrap/component-animations";
+@import "/assets/css/src/_bootstrap/dropdowns";
+@import "/assets/css/src/_bootstrap/button-groups";
+@import "/assets/css/src/_bootstrap/input-groups";
+@import "/assets/css/src/_bootstrap/navs";
+@import "/assets/css/src/_bootstrap/navbar";
+@import "/assets/css/src/_bootstrap/breadcrumbs";
+@import "/assets/css/src/_bootstrap/pagination";
+@import "/assets/css/src/_bootstrap/pager";
+@import "/assets/css/src/_bootstrap/labels";
+@import "/assets/css/src/_bootstrap/badges";
+@import "/assets/css/src/_bootstrap/jumbotron";
+@import "/assets/css/src/_bootstrap/thumbnails";
+@import "/assets/css/src/_bootstrap/alerts";
+@import "/assets/css/src/_bootstrap/progress-bars";
+@import "/assets/css/src/_bootstrap/media";
+@import "/assets/css/src/_bootstrap/list-group";
+@import "/assets/css/src/_bootstrap/panels";
+@import "/assets/css/src/_bootstrap/responsive-embed";
+@import "/assets/css/src/_bootstrap/wells";
+@import "/assets/css/src/_bootstrap/close";
+
+// Components w/ JavaScript
+@import "/assets/css/src/_bootstrap/modals";
+@import "/assets/css/src/_bootstrap/tooltip";
+@import "/assets/css/src/_bootstrap/popovers";
+@import "/assets/css/src/_bootstrap/carousel";
+
+// Utility classes
+@import "/assets/css/src/_bootstrap/utilities";
+@import "/assets/css/src/_bootstrap/responsive-utilities";
