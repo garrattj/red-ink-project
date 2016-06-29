@@ -47,7 +47,7 @@
 		<div class="container content-area-background">
 				<div class="row">
 					<div class="col-md-8">
-						<div id="carousel-example-generic" class="carousel slide" data-interval="false">
+						<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 
 							<!-- Wrapper for slides -->
 							<div class="carousel-inner" role="listbox">
