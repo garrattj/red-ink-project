@@ -7,13 +7,12 @@
 		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 		<title>Red Ink Entertainment</title>
 		<!-- Bootstrap -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<link rel="stylesheet" href="assets/css/dest/bootstrap/bootstrap.min.css">
 		<!-- Font awesome -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 		<!-- Custom fonts and custom style sheet -->
 		<link href='https://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="assets/css/dest/custom.min.css">
-
 	</head>
 <body>
 	<div id="redink-navbar">
@@ -52,7 +51,7 @@
 							<!-- Wrapper for slides -->
 							<div class="carousel-inner" role="listbox">
 								<div class="item active">
-									<img src="assets/images/slider-1.jpg" class="img img-responsive" alt="...">
+									<img src="assets/images/dest/slider-1.jpg" class="img img-responsive" alt="...">
 									<div class="carousel-caption carousel-redink-caption">
 										<div class="caption">
 											Iman's League
@@ -60,7 +59,7 @@
 									</div>
 								</div>
 								<div class="item">
-									<img src="assets/images/slider-2.jpg" class="img img-responsive" alt="...">
+									<img src="assets/images/dest/slider-2.jpg" class="img img-responsive" alt="...">
 									<div class="carousel-caption carousel-redink-caption">
 										<div class="caption">
 											Carbon 4 Teen
@@ -69,7 +68,7 @@
 								</div>
 
 								<div class="item">
-									<img src="assets/images/slider-3.jpg" class="img img-responsive" alt="...">
+									<img src="assets/images/dest/slider-3.jpg" class="img img-responsive" alt="...">
 									<div class="carousel-caption carousel-redink-caption">
 										<div class="caption">
 											Honey B
@@ -77,7 +76,7 @@
 									</div>
 								</div>
 								<div class="item">
-									<img src="assets/images/slider-4.jpg" class="img img-responsive" alt="...">
+									<img src="assets/images/dest/slider-4.jpg" class="img img-responsive" alt="...">
 									<div class="carousel-caption carousel-redink-caption">
 										<div class="caption">
 											Rocket To Mecca
@@ -145,9 +144,12 @@
 						</div>
 				</div>
 			</div>
+
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<!-- Custom javascipr for redink -->
+<script src="assets/js/dest/custom.min.js"></script>
 </body>
 </html>

@@ -20,7 +20,7 @@ module.exports = function(grunt) {
 	sass: {                              // Task
 		dist: {                            // Target
 		  options: {                       // Target options
-			style: 'compressed'
+			     style: 'compressed'
 		  },
 		  files: {
            // Bootstrap build for redink
