@@ -1,1 +1,1 @@
-// Custom javascript for redink
+// Custom javascript for Redink

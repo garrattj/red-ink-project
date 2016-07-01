@@ -44,7 +44,7 @@ module.exports = function(grunt) {
 	// A task to watch file changes and to run tasks automatically
   watch: {
       scripts: {
-        files: ['css/src/*.scss','js/src/*.js'],
+        files: ['css/src/*.scss','css/src/bootstrap/*.scss','js/src/*.js'],
         tasks: ['sass', 'uglify'],
         options: {
           spawn: false,
