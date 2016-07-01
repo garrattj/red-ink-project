@@ -107,7 +107,39 @@
 							<p>Tak cuba tak tahu kan? Thanks, jumpa korang lagi beb!</p>
 							<h5>Iman's League - Anugerah Band Terbaik !</h5>
 						</div>
+						
+						 <div class="tabs-underline">
 
+							<ul>
+								<li>
+									<a class="tab-active" data-index="0" href="#">First tab</a>
+								</li>
+								<li>
+									<a data-index="1" href="#">Second tab</a>
+								</li>
+								<li>
+									<a data-index="2" href="#">Third tab</a>
+								</li>
+							</ul>
+
+							<div class="tabs-content-placeholder">
+
+								<div>
+									<p>Gello and welcome to my life</p>
+									<img src="assets/images/pictures/colosseum.jpg" width="378" alt="Colosseum">
+								</div>
+
+								<div class="tab-content-active">
+						this sucks                <img src="assets/images/pictures/bahnhoff.jpg" width="378" alt="Banhoff">
+								</div>
+
+								<div>
+						i want money                <img src="assets/images/pictures/sahale-wa.jpg" width="378" alt="Sahale Wa">
+								</div>
+
+							</div>
+
+						</div>
 
 					</div>
 
